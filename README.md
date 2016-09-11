@@ -4,6 +4,8 @@ This library add `Console` to [CodeMirror](http://codemirror.net/ "CodeMirror").
 
 This library could execute CodeMirror editor's code.
 
+See also [azu/codemirror-console-ui](https://github.com/azu/codemirror-console-ui "azu/codemirror-console-ui: UI Components of codemirror-console.")
+
 ## Installation
 
 ```sh
@@ -11,7 +13,6 @@ npm install codemirror-console
 ```
 
 Recommend use with [browserify](https://github.com/substack/node-browserify "browserify").
-
 
 ## Usage
 
@@ -41,6 +42,12 @@ editor.runInContext({ console: consoleMock }, function (error, result) {
 });
 editor.destroy();// remote editor
 ```
+
+`codemirror-console` is a core library.
+If you want to get console like UI. please see codemirror-console-ui library.
+
+- [azu/codemirror-console-ui: UI Components of codemirror-console.](https://github.com/azu/codemirror-console-ui "azu/codemirror-console-ui: UI Components of codemirror-console.")
+
 ## Contributing
 
 1. Fork it!
